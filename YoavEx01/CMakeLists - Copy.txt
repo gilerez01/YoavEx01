@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(data_structurs_wet1)
+
+set(CMAKE_CXX_STANDARD 11)
+
+#add_executable(data_structurs_wet1 main1.cpp AVL_Tree.h TreeNode.h Lecture.cpp Lecture.h Tests/UnitTesting/AVL_Treee_Test.cpp Tests/UnitTesting/Lecture_Test.cpp NodeAlreadyExistsException.cpp NodeAlreadyExistsException.h library.cpp CoursesManager.cpp CoursesManager.h Course.cpp Course.cpp NodeDoesntExistsException.cpp NodeDoesntExistsException.h)
+add_executable(data_structurs_wet1 test01.cpp AVL_Tree.h TreeNode.h Lecture.cpp Lecture.h Tests/UnitTesting/AVL_Treee_Test.cpp Tests/UnitTesting/Lecture_Test.cpp NodeAlreadyExistsException.cpp NodeAlreadyExistsException.h library.cpp CoursesManager.cpp CoursesManager.h Course.cpp Course.cpp NodeDoesntExistsException.cpp NodeDoesntExistsException.h)
